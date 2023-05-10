@@ -3,7 +3,7 @@ const About = () =>{
     return (
         <div>
             <h1>WORKING</h1>
-            <p>laburanding</p>
+            <p>laburnding</p>
         </div>
     )
 }

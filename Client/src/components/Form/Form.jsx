@@ -1,15 +1,14 @@
 import {useState} from "react";
-import validation from "./Validation";
+import validation from "../Validation.js";
 
-const Form = ({login}) => {
-    const [errors, setErrors] = useState({
+const Form = (props) => {
 
-    })
-
+    const {login} = props
     const [userData, setUserData]= useState({
         email: '',
         password: ''
     })
+    const [errors, setErrors ] = useState({})
 
     const handleChange= ( event ) => {
         setUserData({
